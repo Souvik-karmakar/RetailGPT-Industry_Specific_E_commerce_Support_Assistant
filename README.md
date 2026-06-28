@@ -1,7 +1,7 @@
 # 🛍️ RetailGPT - Industry-Specific E-commerce Support Assistant
 
 <p align="center">
-  <img src="assets/chatbot_ui.png" alt="RetailGPT Demo" width="900"/>
+  <img src="Retail_GPT.png" alt="RetailGPT Demo" width="900"/>
 </p>
 
 <p align="center">
@@ -55,6 +55,45 @@ Typical customer queries include:
 | ML Utilities    | Scikit-Learn              |
 
 ---
+# 📁 Project Resources
+
+Due to GitHub's file size limitations, the trained model, datasets, evaluation outputs, and generated artifacts are hosted on Google Drive.
+
+📂 **Google Drive Resources**
+
+**Link:**  
+https://drive.google.com/drive/folders/1J2u3AvibE6ukP6hFSemc5b_VJSTbU88_
+
+The Drive folder contains:
+
+```text
+📦 RetailGPT Resources
+│
+├── 📁 data/
+│   ├── train_data.csv
+│   ├── test_data.csv
+│   ├── Bitext Customer Support Dataset
+│   └── Synthetic FAQ Dataset
+│
+├── 📁 models/
+│   ├── Fine-tuned TinyLlama Model
+│   ├── Tokenizer Files
+│   └── LoRA Adapter Files
+│
+├── 📁 outputs/
+│   ├── Generated Responses
+│   ├── Chatbot Output Samples
+│   └── Inference Results
+│
+├── 📁 evaluation/
+│   ├── Evaluation Results
+│   ├── Performance Metrics
+│   └── Validation Outputs
+│
+└── 📄 Project Assets
+```
+
+> **Note:** Large model checkpoints and datasets are stored externally because they exceed GitHub's recommended file size limits.
 
 # 📂 Project Workflow
 
@@ -161,9 +200,6 @@ Workflow:
 5. TinyLlama generates the final response.
 
 ---
-# 💻 Sample
-
-
 # 💻 Project Structure
 
 ```text
